@@ -7,7 +7,8 @@ int main(){
     cin>>n;
     int a=n;
     if (n<0){
-        n=-n;
+        cout<<"Number is not a palindrome";
+        return 0;
     }
     while (n>0){
         r=r*10+(n%10);
